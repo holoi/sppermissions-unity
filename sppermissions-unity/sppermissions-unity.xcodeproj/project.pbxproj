@@ -1,0 +1,468 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4B20385D27BCFAC000BBB711 /* sppermissions_unity.mm in Sources */ = {isa = PBXBuildFile; fileRef = 4B20385C27BCFAC000BBB711 /* sppermissions_unity.mm */; };
+		4B20386627BCFB1100BBB711 /* SPPermissionsBluetooth in Frameworks */ = {isa = PBXBuildFile; productRef = 4B20386527BCFB1100BBB711 /* SPPermissionsBluetooth */; };
+		4B20386827BCFB1100BBB711 /* SPPermissionsCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 4B20386727BCFB1100BBB711 /* SPPermissionsCalendar */; };
+		4B20386A27BCFB1100BBB711 /* SPPermissionsCamera in Frameworks */ = {isa = PBXBuildFile; productRef = 4B20386927BCFB1100BBB711 /* SPPermissionsCamera */; };
+		4B20386C27BCFB1100BBB711 /* SPPermissionsContacts in Frameworks */ = {isa = PBXBuildFile; productRef = 4B20386B27BCFB1100BBB711 /* SPPermissionsContacts */; };
+		4B20386E27BCFB1100BBB711 /* SPPermissionsFaceID in Frameworks */ = {isa = PBXBuildFile; productRef = 4B20386D27BCFB1100BBB711 /* SPPermissionsFaceID */; };
+		4B20387027BCFB1100BBB711 /* SPPermissionsHealth in Frameworks */ = {isa = PBXBuildFile; productRef = 4B20386F27BCFB1100BBB711 /* SPPermissionsHealth */; };
+		4B20387227BCFB1100BBB711 /* SPPermissionsLocationAlways in Frameworks */ = {isa = PBXBuildFile; productRef = 4B20387127BCFB1100BBB711 /* SPPermissionsLocationAlways */; };
+		4B20387427BCFB1100BBB711 /* SPPermissionsLocationWhenInUse in Frameworks */ = {isa = PBXBuildFile; productRef = 4B20387327BCFB1100BBB711 /* SPPermissionsLocationWhenInUse */; };
+		4B20387627BCFB1100BBB711 /* SPPermissionsMicrophone in Frameworks */ = {isa = PBXBuildFile; productRef = 4B20387527BCFB1100BBB711 /* SPPermissionsMicrophone */; };
+		4B20387827BCFB1100BBB711 /* SPPermissionsMotion in Frameworks */ = {isa = PBXBuildFile; productRef = 4B20387727BCFB1100BBB711 /* SPPermissionsMotion */; };
+		4B20387A27BCFB1100BBB711 /* SPPermissionsMusic in Frameworks */ = {isa = PBXBuildFile; productRef = 4B20387927BCFB1100BBB711 /* SPPermissionsMusic */; };
+		4B20387C27BCFB1100BBB711 /* SPPermissionsNotification in Frameworks */ = {isa = PBXBuildFile; productRef = 4B20387B27BCFB1100BBB711 /* SPPermissionsNotification */; };
+		4B20387E27BCFB1100BBB711 /* SPPermissionsPhotoLibrary in Frameworks */ = {isa = PBXBuildFile; productRef = 4B20387D27BCFB1100BBB711 /* SPPermissionsPhotoLibrary */; };
+		4B20388027BCFB1100BBB711 /* SPPermissionsReminders in Frameworks */ = {isa = PBXBuildFile; productRef = 4B20387F27BCFB1100BBB711 /* SPPermissionsReminders */; };
+		4B20388227BCFB1100BBB711 /* SPPermissionsSiri in Frameworks */ = {isa = PBXBuildFile; productRef = 4B20388127BCFB1100BBB711 /* SPPermissionsSiri */; };
+		4B20388427BCFB1100BBB711 /* SPPermissionsSpeechRecognizer in Frameworks */ = {isa = PBXBuildFile; productRef = 4B20388327BCFB1100BBB711 /* SPPermissionsSpeechRecognizer */; };
+		4B20388627BCFB1100BBB711 /* SPPermissionsTracking in Frameworks */ = {isa = PBXBuildFile; productRef = 4B20388527BCFB1100BBB711 /* SPPermissionsTracking */; };
+		4B20388927BCFB2B00BBB711 /* sppermissions-swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B20388827BCFB2B00BBB711 /* sppermissions-swift.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4B20385627BCFAC000BBB711 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4B20385827BCFAC000BBB711 /* libsppermissions-unity.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libsppermissions-unity.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B20385C27BCFAC000BBB711 /* sppermissions_unity.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = sppermissions_unity.mm; sourceTree = "<group>"; };
+		4B20388727BCFB2A00BBB711 /* sppermissions-unity-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "sppermissions-unity-Bridging-Header.h"; sourceTree = "<group>"; };
+		4B20388827BCFB2B00BBB711 /* sppermissions-swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "sppermissions-swift.swift"; sourceTree = "<group>"; };
+		4B2038CD27BD372500BBB711 /* sppermissions_unity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = sppermissions_unity.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B20385527BCFAC000BBB711 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B20387227BCFB1100BBB711 /* SPPermissionsLocationAlways in Frameworks */,
+				4B20387E27BCFB1100BBB711 /* SPPermissionsPhotoLibrary in Frameworks */,
+				4B20386827BCFB1100BBB711 /* SPPermissionsCalendar in Frameworks */,
+				4B20386E27BCFB1100BBB711 /* SPPermissionsFaceID in Frameworks */,
+				4B20387627BCFB1100BBB711 /* SPPermissionsMicrophone in Frameworks */,
+				4B20387A27BCFB1100BBB711 /* SPPermissionsMusic in Frameworks */,
+				4B20388027BCFB1100BBB711 /* SPPermissionsReminders in Frameworks */,
+				4B20388227BCFB1100BBB711 /* SPPermissionsSiri in Frameworks */,
+				4B20387027BCFB1100BBB711 /* SPPermissionsHealth in Frameworks */,
+				4B20387427BCFB1100BBB711 /* SPPermissionsLocationWhenInUse in Frameworks */,
+				4B20387C27BCFB1100BBB711 /* SPPermissionsNotification in Frameworks */,
+				4B20386627BCFB1100BBB711 /* SPPermissionsBluetooth in Frameworks */,
+				4B20388427BCFB1100BBB711 /* SPPermissionsSpeechRecognizer in Frameworks */,
+				4B20386A27BCFB1100BBB711 /* SPPermissionsCamera in Frameworks */,
+				4B20387827BCFB1100BBB711 /* SPPermissionsMotion in Frameworks */,
+				4B20386C27BCFB1100BBB711 /* SPPermissionsContacts in Frameworks */,
+				4B20388627BCFB1100BBB711 /* SPPermissionsTracking in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4B20384F27BCFAC000BBB711 = {
+			isa = PBXGroup;
+			children = (
+				4B20385A27BCFAC000BBB711 /* sppermissions-unity */,
+				4B20385927BCFAC000BBB711 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4B20385927BCFAC000BBB711 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B20385827BCFAC000BBB711 /* libsppermissions-unity.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B20385A27BCFAC000BBB711 /* sppermissions-unity */ = {
+			isa = PBXGroup;
+			children = (
+				4B2038CD27BD372500BBB711 /* sppermissions_unity.h */,
+				4B20385C27BCFAC000BBB711 /* sppermissions_unity.mm */,
+				4B20388827BCFB2B00BBB711 /* sppermissions-swift.swift */,
+				4B20388727BCFB2A00BBB711 /* sppermissions-unity-Bridging-Header.h */,
+			);
+			path = "sppermissions-unity";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B20385727BCFAC000BBB711 /* sppermissions-unity */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B20386127BCFAC000BBB711 /* Build configuration list for PBXNativeTarget "sppermissions-unity" */;
+			buildPhases = (
+				4B20385427BCFAC000BBB711 /* Sources */,
+				4B20385527BCFAC000BBB711 /* Frameworks */,
+				4B20385627BCFAC000BBB711 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sppermissions-unity";
+			packageProductDependencies = (
+				4B20386527BCFB1100BBB711 /* SPPermissionsBluetooth */,
+				4B20386727BCFB1100BBB711 /* SPPermissionsCalendar */,
+				4B20386927BCFB1100BBB711 /* SPPermissionsCamera */,
+				4B20386B27BCFB1100BBB711 /* SPPermissionsContacts */,
+				4B20386D27BCFB1100BBB711 /* SPPermissionsFaceID */,
+				4B20386F27BCFB1100BBB711 /* SPPermissionsHealth */,
+				4B20387127BCFB1100BBB711 /* SPPermissionsLocationAlways */,
+				4B20387327BCFB1100BBB711 /* SPPermissionsLocationWhenInUse */,
+				4B20387527BCFB1100BBB711 /* SPPermissionsMicrophone */,
+				4B20387727BCFB1100BBB711 /* SPPermissionsMotion */,
+				4B20387927BCFB1100BBB711 /* SPPermissionsMusic */,
+				4B20387B27BCFB1100BBB711 /* SPPermissionsNotification */,
+				4B20387D27BCFB1100BBB711 /* SPPermissionsPhotoLibrary */,
+				4B20387F27BCFB1100BBB711 /* SPPermissionsReminders */,
+				4B20388127BCFB1100BBB711 /* SPPermissionsSiri */,
+				4B20388327BCFB1100BBB711 /* SPPermissionsSpeechRecognizer */,
+				4B20388527BCFB1100BBB711 /* SPPermissionsTracking */,
+			);
+			productName = "sppermissions-unity";
+			productReference = 4B20385827BCFAC000BBB711 /* libsppermissions-unity.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B20385027BCFAC000BBB711 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					4B20385727BCFAC000BBB711 = {
+						CreatedOnToolsVersion = 13.3;
+						LastSwiftMigration = 1330;
+					};
+				};
+			};
+			buildConfigurationList = 4B20385327BCFAC000BBB711 /* Build configuration list for PBXProject "sppermissions-unity" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4B20384F27BCFAC000BBB711;
+			packageReferences = (
+				4B20386427BCFB1100BBB711 /* XCRemoteSwiftPackageReference "SPPermissions" */,
+			);
+			productRefGroup = 4B20385927BCFAC000BBB711 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B20385727BCFAC000BBB711 /* sppermissions-unity */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B20385427BCFAC000BBB711 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B20385D27BCFAC000BBB711 /* sppermissions_unity.mm in Sources */,
+				4B20388927BCFB2B00BBB711 /* sppermissions-swift.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		4B20385F27BCFAC000BBB711 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4B20386027BCFAC000BBB711 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B20386227BCFAC000BBB711 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P9TVSH3F53;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "sppermissions-unity/sppermissions-unity-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B20386327BCFAC000BBB711 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = P9TVSH3F53;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "sppermissions-unity/sppermissions-unity-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B20385327BCFAC000BBB711 /* Build configuration list for PBXProject "sppermissions-unity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B20385F27BCFAC000BBB711 /* Debug */,
+				4B20386027BCFAC000BBB711 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B20386127BCFAC000BBB711 /* Build configuration list for PBXNativeTarget "sppermissions-unity" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B20386227BCFAC000BBB711 /* Debug */,
+				4B20386327BCFAC000BBB711 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		4B20386427BCFB1100BBB711 /* XCRemoteSwiftPackageReference "SPPermissions" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ivanvorobei/SPPermissions";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		4B20386527BCFB1100BBB711 /* SPPermissionsBluetooth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4B20386427BCFB1100BBB711 /* XCRemoteSwiftPackageReference "SPPermissions" */;
+			productName = SPPermissionsBluetooth;
+		};
+		4B20386727BCFB1100BBB711 /* SPPermissionsCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4B20386427BCFB1100BBB711 /* XCRemoteSwiftPackageReference "SPPermissions" */;
+			productName = SPPermissionsCalendar;
+		};
+		4B20386927BCFB1100BBB711 /* SPPermissionsCamera */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4B20386427BCFB1100BBB711 /* XCRemoteSwiftPackageReference "SPPermissions" */;
+			productName = SPPermissionsCamera;
+		};
+		4B20386B27BCFB1100BBB711 /* SPPermissionsContacts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4B20386427BCFB1100BBB711 /* XCRemoteSwiftPackageReference "SPPermissions" */;
+			productName = SPPermissionsContacts;
+		};
+		4B20386D27BCFB1100BBB711 /* SPPermissionsFaceID */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4B20386427BCFB1100BBB711 /* XCRemoteSwiftPackageReference "SPPermissions" */;
+			productName = SPPermissionsFaceID;
+		};
+		4B20386F27BCFB1100BBB711 /* SPPermissionsHealth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4B20386427BCFB1100BBB711 /* XCRemoteSwiftPackageReference "SPPermissions" */;
+			productName = SPPermissionsHealth;
+		};
+		4B20387127BCFB1100BBB711 /* SPPermissionsLocationAlways */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4B20386427BCFB1100BBB711 /* XCRemoteSwiftPackageReference "SPPermissions" */;
+			productName = SPPermissionsLocationAlways;
+		};
+		4B20387327BCFB1100BBB711 /* SPPermissionsLocationWhenInUse */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4B20386427BCFB1100BBB711 /* XCRemoteSwiftPackageReference "SPPermissions" */;
+			productName = SPPermissionsLocationWhenInUse;
+		};
+		4B20387527BCFB1100BBB711 /* SPPermissionsMicrophone */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4B20386427BCFB1100BBB711 /* XCRemoteSwiftPackageReference "SPPermissions" */;
+			productName = SPPermissionsMicrophone;
+		};
+		4B20387727BCFB1100BBB711 /* SPPermissionsMotion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4B20386427BCFB1100BBB711 /* XCRemoteSwiftPackageReference "SPPermissions" */;
+			productName = SPPermissionsMotion;
+		};
+		4B20387927BCFB1100BBB711 /* SPPermissionsMusic */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4B20386427BCFB1100BBB711 /* XCRemoteSwiftPackageReference "SPPermissions" */;
+			productName = SPPermissionsMusic;
+		};
+		4B20387B27BCFB1100BBB711 /* SPPermissionsNotification */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4B20386427BCFB1100BBB711 /* XCRemoteSwiftPackageReference "SPPermissions" */;
+			productName = SPPermissionsNotification;
+		};
+		4B20387D27BCFB1100BBB711 /* SPPermissionsPhotoLibrary */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4B20386427BCFB1100BBB711 /* XCRemoteSwiftPackageReference "SPPermissions" */;
+			productName = SPPermissionsPhotoLibrary;
+		};
+		4B20387F27BCFB1100BBB711 /* SPPermissionsReminders */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4B20386427BCFB1100BBB711 /* XCRemoteSwiftPackageReference "SPPermissions" */;
+			productName = SPPermissionsReminders;
+		};
+		4B20388127BCFB1100BBB711 /* SPPermissionsSiri */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4B20386427BCFB1100BBB711 /* XCRemoteSwiftPackageReference "SPPermissions" */;
+			productName = SPPermissionsSiri;
+		};
+		4B20388327BCFB1100BBB711 /* SPPermissionsSpeechRecognizer */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4B20386427BCFB1100BBB711 /* XCRemoteSwiftPackageReference "SPPermissions" */;
+			productName = SPPermissionsSpeechRecognizer;
+		};
+		4B20388527BCFB1100BBB711 /* SPPermissionsTracking */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 4B20386427BCFB1100BBB711 /* XCRemoteSwiftPackageReference "SPPermissions" */;
+			productName = SPPermissionsTracking;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 4B20385027BCFAC000BBB711 /* Project object */;
+}
