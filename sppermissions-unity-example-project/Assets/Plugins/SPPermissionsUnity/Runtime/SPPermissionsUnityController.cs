@@ -115,6 +115,13 @@ public class SPPermissionsUnityController : MonoBehaviour
         SPPermissionsUnity_SetDidHidePermissionsDelegate(OnDidHidePermissions);
     }
 
+    private void OnDestroy()
+    {
+        SPPermissionsUnity_SetDidAllowPermissionDelegate(null);
+        SPPermissionsUnity_SetDidDenyPermissionDelegate(null);
+        SPPermissionsUnity_SetDidHidePermissionsDelegate(null);
+    }
+
     private void Update()
     {
         if (s_didAllowPermission)
