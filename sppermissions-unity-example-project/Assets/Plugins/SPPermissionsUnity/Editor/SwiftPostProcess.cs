@@ -20,6 +20,11 @@ public static class SwiftPostProcess
 
             proj.AddBuildProperty(unityFrameworkTargetGuid, "LIBRARY_SEARCH_PATHS", "$(SDKROOT)/usr/lib/swift");
             proj.AddBuildProperty(unityFrameworkTargetGuid, "LIBRARY_SEARCH_PATHS", "$(TOOLCHAIN_DIR)/usr/lib/swift/$(PLATFORM_NAME)");
+
+            // To prevent duplicate symbol error
+            string[] strs = { "-ObjC" };
+            proj.UpdateBuildProperty(unityFrameworkTargetGuid, "OTHER_LDFLAGS", null, strs);
+
             // This is optional
             proj.SetBuildProperty(mainTargetGuid, "SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD", "NO");
 
