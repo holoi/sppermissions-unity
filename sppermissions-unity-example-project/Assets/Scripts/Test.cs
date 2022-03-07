@@ -1,8 +1,9 @@
 using UnityEngine;
+using SPPermissions.Unity;
 
 public class Test : MonoBehaviour
 {
-    [SerializeField] private SPPermissionsUnityController _controller;
+    [SerializeField] private SPPermissionsController _controller;
 
     private void Start()
     {
